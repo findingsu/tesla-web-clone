@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.navbar {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+}
+.nav-list {
+    border: solid pink;
+    padding: 0px;
+}
+.logo {
+    border: solid green;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+.navbar-links ul {
+    display: flex;
+}
+.navbar-links li {
+    list-style: none;
+    border: solid red;
+}
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    justify-content: center;
+    border: solid blue;
+}
+.icons {
+    border: solid red;
+}
