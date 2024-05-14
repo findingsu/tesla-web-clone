@@ -45,7 +45,8 @@
 }
 .metrics {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 5rem;
     order: -1;
 }
 
