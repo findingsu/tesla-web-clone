@@ -35,3 +35,17 @@
 .icons {
     border: solid red;
 }
+.title {
+    text-align: center;
+    border: solid red;
+}
+.subtitle {
+    text-align: center;
+    border: solid red;
+}
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    order: -1;
+}
+
