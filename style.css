@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+height: 100%;
+}
 body {
     background-image: url(Model.S.Desktop.jpeg);
     background-repeat: no-repeat;
@@ -47,18 +50,13 @@ body {
     text-align: center;
     border: solid red;
 }
-.main {
-    calc100vh-
-}
 .metrics {
     display: flex;
     border: solid green;
     justify-content: center;
     order: -1;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0
+    height: 40rem;
+    align-items: flex-end;
 }
 .metrics p {
     border: solid green;
