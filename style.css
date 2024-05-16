@@ -47,16 +47,18 @@ body {
     text-align: center;
     border: solid red;
 }
-.subtitle {
-    text-align: center;
-    border: solid red;
+.main {
+    calc100vh-
 }
 .metrics {
     display: flex;
     border: solid green;
     justify-content: center;
     order: -1;
-    align-content: flex-end;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0
 }
 .metrics p {
     border: solid green;
