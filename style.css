@@ -55,11 +55,15 @@ body {
     border: solid green;
     justify-content: center;
     order: -1;
-    height: 40rem;
-    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0
 }
+
 .metrics p {
     border: solid green;
     display: block;
     padding: 1rem;
+    flex-wrap: wrap
 }
