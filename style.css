@@ -18,7 +18,7 @@ body {
     border: solid;
 }
 .nav-list {
-    border: solid pink;
+    border: solid green;
     padding: 0px;
 }
 .logo {
@@ -29,6 +29,7 @@ body {
 }
 .navbar-links ul {
     display: flex;
+    border: solid blue;
 }
 .navbar-links li {
     list-style: none;
@@ -54,16 +55,20 @@ body {
     display: flex;
     border: solid green;
     justify-content: center;
-    order: -1;
     position: absolute;
     right: 0;
     left: 0;
     bottom: 0
 }
-
-.metrics p {
-    border: solid green;
+.metric-items {
+    border: solid brown;
     display: block;
     padding: 1rem;
-    flex-wrap: wrap
+    text-align: center;
+}
+.metric-items h3 {
+    border: solid pink;
+}
+.metric-items p {
+    border: solid blue;
 }
