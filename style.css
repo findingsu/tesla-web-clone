@@ -82,7 +82,7 @@ body {
     /* border: solid green; */
     font-size: 40px;
     font-weight: 500;
-    font-stretch: semi-expanded;
+    /* font-stretch: semi-expanded; */
 
 }
 .title p {
