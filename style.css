@@ -11,7 +11,7 @@
     margin: 0px;
     padding: 0px;
     font-weight: 500px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Figtree, Roboto;
+    font-family: Figtree, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
 }
 body {
     background-image: url(Model.S.Desktop.jpeg);
@@ -113,7 +113,7 @@ body {
     margin-bottom: 10px;
     font-size: 23px;
     font-weight: 500;
-    font-stretch: semi-expanded;
+    font-stretch: wider;
 }
 .metric-items p {
     /* border: solid blue; */
