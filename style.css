@@ -12,6 +12,7 @@
     padding: 0px;
     font-weight: 500px;
     font-family: Figtree, Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+    letter-spacing: 1px;
 }
 body {
     background-image: url(Model.S.Desktop.jpeg);
@@ -19,6 +20,10 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    height: 100vh;
+}
+.header {
+    border: solid yellow;
 }
 .navbar {
     display:flex;
@@ -64,7 +69,9 @@ body {
     margin-right: 40px;
     color: black;
     display: flex;
-
+}
+.icons a:hover {
+    background-color: #d0d1d2
 }
 .fa-solid.fa-globe {
     color: black;
@@ -87,21 +94,21 @@ body {
     text-decoration: none;
     color: black;
     font-stretch: wider;
-    /* background: #EAECF0FF; */
     text-align: center;
     border-radius: 3px;
-    cursor: pointer;
 }
 .toggle-button button {
+    cursor: pointer;
     width: 100%;
     font-stretch: wider;
+    font-size: 14px;
     font-weight: 500;
     padding-bottom: 4px;
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 8px;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .toggle-button {
         display: flex;
     }
@@ -126,16 +133,19 @@ body {
         display: flex;
     }
 }
+nav a{
+    height: 100%;
+}
 .title {
     text-align: center;
-    /* border: solid red; */
-    margin: 50px;
+    position: sticky;
+    align-content: center;
+    /* margin: 80px; */
 }
 .title h1 {
     /* border: solid green; */
     font-size: 40px;
     font-weight: 500;
-    /* font-stretch: semi-expanded; */
 
 }
 .title p {
@@ -143,49 +153,60 @@ body {
     font-size: 14px;
     font-stretch: semi-expanded;
 }
-.metrics {
-    display: flex;
-    /* border: solid green; */
-    color: white;
-    justify-content: center;
+footer {
     position: absolute;
+    display: flex;
     right: 0;
     left: 0;
-    bottom: 0;
-    margin-bottom: 20px;
-    align-items: center;
+    bottom: 0; 
+    height: 15%;
+}
+.metrics {
+    justify-content: center;
+    display: flex;
+    border: solid green;
+    color: white;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
 }
 .metric-items {
-    /* border: solid brown; */
-    display: block;
-    text-align: center;
-    padding: 50px;
+    border: solid brown;
+    width: 160px;
+    height: 72px;
+    position: sticky;
 }
 .metric-items h3 {
     /* border: solid pink; */
-    margin-bottom: 10px;
-    font-size: 23px;
+    font-size: 24px;
     font-weight: 500;
     font-stretch: wider;
+    margin-bottom: 15px;
 }
 .metric-items p {
     /* border: solid blue; */
     font-size: 12px;
     font-stretch: wider;
-
+    align-content: flex-start;
+}
+.get-updates {
+    width: 320px;
+    height: 72px;
+    border: solid blue;
 }
 .get-updates button {
     background: #1e7cffd3;
-    align-content: flex-start;
     font-size: medium;
     width: 200px;
     color: white;
     padding: 10px;
     border-radius: 6px;
     cursor: pointer;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     font-size: 14px;
-    font-stretch: semi-expanded;
+    font-stretch: wider;
 }
+
 
 
