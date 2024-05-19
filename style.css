@@ -56,7 +56,7 @@ body {
     display: none;
 }
 .nav-list a:hover {
-    background-color: #d0d1d2
+    background-color: hsla(210, 2%, 82%, 0.54)
 }
 .toggle-checkbox {
     display: none;
@@ -89,7 +89,7 @@ body {
         font-stretch: wider;
         font-weight: 500;
         padding-bottom: 4px;
-        background-color: #EAECF0FF;;
+        background-color: rgba(234, 236, 240, 0.073);;
     }
     .icons i {
         display: none;
@@ -166,7 +166,7 @@ nav a {
     display: flex;
 }
 .icons a:hover {
-    background-color: #d0d1d2
+background-color: hsla(210, 2%, 82%, 0.54)
 }
 .fa-solid.fa-globe {
     color: black;
