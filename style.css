@@ -53,14 +53,15 @@ body {
     /* border: solid yellow; */
 }
 .sidebar-nav a {
-     display: none;
- }
+    display: none;
+}
 .nav-list a:hover {
     background-color: #d0d1d2
 }
 .toggle-checkbox {
     display: none;
 }
+
 .toggle-button {
     position: absolute;
     top: 1.75rem;
@@ -78,6 +79,10 @@ body {
 }
 .toggle-button, .close-sidebar-button {
     display: none;
+}
+.close-sidebar-button {
+    display: none;
+    cursor: pointer;
 }
 @media  (max-width: 900px) {
     .toggle-button {
@@ -98,7 +103,7 @@ body {
         display: none;
         flex-direction: column;
         align-items: flex-start;
-        position: fixed;
+        position: absolute;
         z-index: 999;
         width: 100%;
         background-color: white;
@@ -121,10 +126,10 @@ body {
         /* border: solid pink; */
     }
     .sidebar-nav a {
-        /* display: flex; */
         align-items: baseline;
         align-content: start;
         font-size: 17px;
+        display: flex;
     }
     .sidebar-nav li {
         padding-left: 15px;
@@ -136,11 +141,13 @@ body {
         margin-top: 5px;
     }
     .close-sidebar-button {
-        padding-top: 25px;
+        padding-top: 25px; 
         padding-bottom: 20px;
-        margin-left: 425px;
-        display: block;
-    }
+        padding-left: 50px;
+        top: 1.75rem;
+        right: 2rem;
+        flex-direction: column;
+}
     .toggle-button, .close-sidebar-button {
         display: block;
         }
