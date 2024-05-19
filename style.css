@@ -26,6 +26,7 @@ body {
     border: solid yellow;
 }
 /* nav a {
+    height: 100%;
 } */
 .navbar {
     height: 100%;
@@ -54,7 +55,7 @@ body {
 }
 .navbar-links li {
     list-style: none;
-    /* border: solid red; */
+    border: solid red;
 }
 .navbar-links a {
     text-decoration: none;
@@ -88,13 +89,33 @@ body {
 .icons a {
     padding: 5px;
 }
-.navbar-links .sidebar a {
-    display: none;
+.sidebar-active {
+    position: absolute;
+    top: 1.75rem;
+    right: 2rem;
+    /* display: none; */
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-stretch: wider;
+    text-align: center;
+    border-radius: 3px;
+}
+.sidebar-active button {
+    cursor: pointer;
+    width: 100%;
+    font-stretch: wider;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 @media (max-width: 900px) {
-    .toggle.button {
+    .sidebar-active button {
         display: flex;
-        position: absolute;
+        /* position: absolute; */
     }
     .navbar-links .nav-list {
         display: none;
@@ -119,26 +140,30 @@ body {
         display: flex;
     }
 }
-#sidebar-active {
+/* .sidebar-active {
     display: none;
-}
-.open-sidebar button, .close-sidebar-button {
+} */
+/* .open-sidebar button, .close-sidebar-button {
     display: none;
-    padding: 0 20px;
-}
+    padding: 20px;
+} */
 .sidebar {
-    /* display: none; */
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    list-style: none;
+    top: 0;
+    height: 100vh;
+    right: 0;
+    height: 10;
 }
 @media  (max-width: 900px) {
-    .navbar-links .sidebar {
-        border: solid blue;
+    .sidebar {
+        /* border: solid blue; */
+        display: block;
         flex-direction: column;
         align-items: flex-start;
-        position: absolute;
-        /* height: 100vh; */
-        top: 0;
-        right: 0;
-        height: 10;
+        position: fixed;
         z-index: 999;
         width: 300px;
         background-color: white;
