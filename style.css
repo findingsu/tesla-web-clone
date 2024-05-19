@@ -52,7 +52,10 @@ body {
     display: block;
     /* border: solid yellow; */
 }
-.nav-list li:hover {
+.sidebar-nav a {
+     display: flex;
+ }
+.nav-list a:hover {
     background-color: #d0d1d2
 }
 .toggle-checkbox {
@@ -97,7 +100,7 @@ body {
         align-items: flex-start;
         position: fixed;
         z-index: 999;
-        width: 300px;
+        width: 100%;
         background-color: white;
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         top: 0;
@@ -108,13 +111,38 @@ body {
         box-sizing: border-box;
         height: auto;
         width: 100%;
-        padding: 20px 30px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+        padding-right: 8px;
         justify-content: flex-start;
+        font-size: 17px;
+        font-weight: 500;
         /* border: solid pink; */
+    }
+    .sidebar-nav a {
+        /* display: flex; */
+        align-items: baseline;
+        align-content: start;
+        font-size: 17px;
+    }
+    .sidebar-nav li {
+        padding-left: 15px;
+    }
+    .sidebar-nav h3 {
+        font-size: 15px;
+        font-weight: 400;
+        color: rgb(92, 94, 98);
+        margin-top: 5px;
+    }
+    .close-sidebar-button {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        margin-left: 425px;
+        display: block;
     }
     .toggle-button, .close-sidebar-button {
         display: block;
-        padding: 0 20px;
         }
     .toggle-checkbox:checked ~ .nav-list {
         display: block;
