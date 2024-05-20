@@ -22,13 +22,6 @@ body {
     background-size: cover;
     height: 100vh;
 }
-/* .header {
-    /* width: 100%; */
-    /* right: 50; */
-    /* left: 50; */
-    /* bottom: 100%; */
-    /* position: absolute; */
-} */
 .logo {
     /* border: solid green; */
     text-decoration: none;
@@ -169,9 +162,9 @@ body {
         display: block;
     }
 }
-nav a {
+/* nav a {
     height: 100%;
-}
+} */
 .icons {
     /* border: solid red; */
     text-decoration: none;
@@ -183,8 +176,8 @@ nav a {
     padding: 6px;
 }
 .icons a:hover {
-background-color: hsla(210, 2%, 82%, 0.54);
-border-radius: 3px;
+    background-color: hsla(210, 2%, 82%, 0.54);
+    border-radius: 3px;
 }
 .fa-solid.fa-globe {
     color: black;
