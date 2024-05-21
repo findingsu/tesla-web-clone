@@ -239,7 +239,6 @@ body {
 }
 .button {
     width: 160px;
-    height: 72;
 }
 .metric-button {
     background: #1e7cffd3;
@@ -258,19 +257,61 @@ body {
         font-size: 22px;
     }
     .metric-item p {
-        font-size: 11px
+        font-size: 12px
     }
 }
 @media (max-width: 600px) {
     .metric-item {
-        width: 110px;
+        width: 105px;
         }
+    .button {
+        width: 420px;
+    }
 }
-@media {
+@media (max-width: 400px) {
     .metric-item {
-        
+        width: 86px;
+        height: 65px;
+        margin-bottom: 7px;
+        /* border: solid blue; */
+    }
+    .button {
+        width: 340px;
+        /* border: solid red; */
     }
     .metric-item h3 {
-        font-size: 15px;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .metric-item p {
+        font-size: 10px;
+    }
+    .metric-button {
+        font-size: 13px;
+        margin-bottom: 20px;
+        justify-content: center;
+        width: 250px;
+        align-content: center;
+    }
+    .title {
+        /* margin-top: 2px; */
+    }
+    .title h1 {
+        /* border: solid green; */
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .title p {
+        /* border: solid pink; */
+        font-size: 12px;
+        font-stretch: semi-expanded;
+    }
+    .logo img {
+        margin-left: 22px;
+        margin-top: 15px;
+    }
+    .toggle-button {
+        right: 22px;
+        margin-top: 12px;
     }
 }
