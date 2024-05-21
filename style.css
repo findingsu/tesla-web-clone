@@ -270,7 +270,7 @@ body {
 }
 @media (max-width: 500px) {
     .metric-item {
-        width: 90px;
+        width: 95px;
         height: 65px;
         margin-bottom: 20px;
         /* border: solid blue; */
@@ -280,7 +280,7 @@ body {
         /* border: solid red; */
     }
     .metric-item h3 {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 12px;
     }
     .metric-item p {
