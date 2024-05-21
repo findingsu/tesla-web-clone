@@ -270,9 +270,9 @@ body {
 }
 @media (max-width: 500px) {
     .metric-item {
-        width: 80px;
+        width: px;
         height: 65px;
-        margin-bottom: 7px;
+        margin-bottom: 19px;
         /* border: solid blue; */
     }
     .button {
@@ -280,14 +280,14 @@ body {
         /* border: solid red; */
     }
     .metric-item h3 {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 12px;
     }
     .metric-item p {
-        font-size: 10px;
+        font-size: 12px;
     }
     .metric-button {
-        font-size: 13px;
+        font-size: 15px;
         margin-bottom: 20px;
         justify-content: center;
         width: 300px;
@@ -299,7 +299,7 @@ body {
     }
     .title p {
         /* border: solid pink; */
-        font-size: 12px;
+        font-size: 14px;
         font-stretch: semi-expanded;
     }
   
