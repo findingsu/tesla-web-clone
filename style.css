@@ -217,24 +217,29 @@ body {
     bottom: 7%; 
     display: flex;
 }
-.metric-items {
-    flex-direction: row;
+.metric-grid {
+    display: flex;
     /* border: solid brown; */
-    width: 160px;
-    height: 72px;
-    align-content: flex-start;
 }
-.metric-items h3 {
+.metric-item {
+    width: 160px; 
+    height: 72px;
+}
+.metric-item h3 {
     /* border: solid pink; */
     font-size: 24px;
     font-weight: 500;
     font-stretch: wider;
     margin-bottom: 10px;
 }
-.metric-items p {
+.metric-item p {
     /* border: solid blue; */
     font-size: 12px;
     font-stretch: wider;
+}
+.button {
+    width: 160px;
+    height: 72;
 }
 .metric-button {
     background: #1e7cffd3;
@@ -247,4 +252,25 @@ body {
     font-size: 14px;
     font-stretch: wider;
     border: none;
+}
+@media (max-width: 800px) {
+    .metric-item h3{
+        font-size: 22px;
+    }
+    .metric-item p {
+        font-size: 11px
+    }
+}
+@media (max-width: 600px) {
+    .metric-item {
+        width: 110px;
+        }
+}
+@media {
+    .metric-item {
+        
+    }
+    .metric-item h3 {
+        font-size: 15px;
+    }
 }
