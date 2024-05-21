@@ -268,15 +268,15 @@ body {
         width: 420px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .metric-item {
-        width: 86px;
+        width: 80px;
         height: 65px;
         margin-bottom: 7px;
         /* border: solid blue; */
     }
     .button {
-        width: 340px;
+        width: 320px;
         /* border: solid red; */
     }
     .metric-item h3 {
@@ -290,11 +290,7 @@ body {
         font-size: 13px;
         margin-bottom: 20px;
         justify-content: center;
-        width: 250px;
-        align-content: center;
-    }
-    .title {
-        /* margin-top: 2px; */
+        width: 300px;
     }
     .title h1 {
         /* border: solid green; */
@@ -306,12 +302,5 @@ body {
         font-size: 12px;
         font-stretch: semi-expanded;
     }
-    .logo img {
-        margin-left: 22px;
-        margin-top: 15px;
-    }
-    .toggle-button {
-        right: 22px;
-        margin-top: 12px;
-    }
+  
 }
