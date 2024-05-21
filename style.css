@@ -281,10 +281,10 @@ body {
     }
     .metric-item h3 {
         font-size: 18px;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     .metric-item p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .metric-button {
         font-size: 15px;
