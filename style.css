@@ -303,6 +303,8 @@ body {
         font-size: 10px;
         font-stretch: semi-expanded;
         }
-
+    .metric-item h4 {
+        display: none;
+        }
     }
   
