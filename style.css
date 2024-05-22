@@ -282,26 +282,27 @@ body {
     .metric-item h3 {
         font-size: 18px;
         margin-bottom: 10px;
-        font-weight: 600;
+        font-weight: 650;
     }
     .metric-item p {
         font-size: 8px;
     }
     .metric-button {
         font-size: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         width: 300px;
     }
     .title h1 {
         /* border: solid green; */
-        font-size: 30px;
-        font-weight: 600;
-        margin-top: 30px;
+        font-size: 50px;
+        font-weight: 550;
+        margin-top: 40px;
     }
     .title p {
         /* border: solid pink; */
         font-size: 10px;
         font-stretch: semi-expanded;
+        }
+
     }
   
-}
