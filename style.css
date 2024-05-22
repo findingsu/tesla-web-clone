@@ -86,14 +86,14 @@ body {
     display: none;
     cursor: pointer;
 }
-@media  (max-width: 900px) {
+@media  (max-width: 910px) {
     .toggle-button {
         font-stretch: wider;
         font-weight: 500;
         padding-bottom: 4px;
         background-color: rgba(234, 236, 240, 0.073);;
     }
-    .icons i {
+    .icons a {
         display: none;
     }
     .navbar {
@@ -222,15 +222,15 @@ body {
     /* border: solid brown; */
 }
 .metric-item {
-    width: 160px; 
-    height: 72px;
+    width: 170px; 
+    margin-bottom: 25px;
 }
 .metric-item h3 {
     /* border: solid pink; */
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 510;
     font-stretch: wider;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .metric-item p {
     /* border: solid blue; */
@@ -238,7 +238,7 @@ body {
     font-stretch: wider;
 }
 .button {
-    width: 160px;
+    width: 170px;
 }
 .metric-button {
     background: #1e7cffd3;
@@ -252,50 +252,120 @@ body {
     font-stretch: wider;
     border: none;
 }
-@media (max-width: 800px) {
-    .metric-item h3{
-        font-size: 22px;
+
+@media (max-width: 1100px) {
+    .metric-item {
+        width: 160px;
     }
-    .metric-item p {
-        font-size: 12px
+/* 
+    .metric-mobile {
+        width: 130px;
+    } */
+
+    .button {
+        width: 470px;
+    }
+
+    .metric-button {
+        width: 200px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
     .metric-item {
-        width: 105px;
-        }
+        width: 160px;
+    }
     .button {
-        width: 420px;
+        width: 470px;
+    }
+
+    .metric-button {
+        width: 200px;
+    }
+}
+@media (max-width: 1099px) {
+    .metric-item {
+        width: 160px;
+    }
+    .button {
+        width: 640px;
+    }
+
+    .metric-button {
+        width: 640px;
+    }
+}
+@media (max-width: 660px) {
+    .metric-item {
+        width: 140px;
+    }
+
+    .button {
+        width: 560px;
+    }
+
+    .metric-button {
+        width: 560px;
+    }
+    .metric-item h3 {
+        font-size: 23px;
+    }
+    .metric-item p {
+        font-size: 11px;
+    }
+}
+@media (max-width: 580px) {
+    .metric-item {
+        width: 120px;
+    }
+    .button {
+        width: 480px;
+    }
+
+    .metric-button {
+        width: 480px;
+    }
+
+    .metric-item h3 {
+        font-size: 23px;
+    }
+
+    .metric-item p {
+        font-size: 11px;
+    }
+    .metric-button {
+        font-size: 14px;
     }
 }
 @media (max-width: 500px) {
     .metric-item {
-        width: 93px;
+        width: 110px;
         height: 65px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
+        /* justify-content: center; */
         /* border: solid blue; */
     }
     .button {
-        width: 320px;
+        width: 330px;
         /* border: solid red; */
     }
     .metric-item h3 {
-        font-size: 18px;
-        margin-bottom: 10px;
-        font-weight: 650;
+        font-size: 22px;
+        margin-bottom: 15px;
+        font-weight: 510;
     }
     .metric-item p {
-        font-size: 8px;
+        font-size: 10px;
     }
     .metric-button {
         font-size: 15px;
         margin-bottom: 10px;
-        width: 300px;
+        width: 330px;
+        font-weight: 500;
     }
     .title h1 {
         /* border: solid green; */
-        font-size: 50px;
-        font-weight: 550;
+        font-size: 40px;
+        font-weight: 540;
         margin-top: 40px;
     }
     .title p {
@@ -303,8 +373,8 @@ body {
         font-size: 10px;
         font-stretch: semi-expanded;
         }
-    .metric-item h4 {
-        display: none;
+    .metric-mobile {
+        display:none;
         }
     }
   
