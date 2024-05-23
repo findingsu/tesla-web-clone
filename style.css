@@ -85,6 +85,11 @@ body {
 .close-sidebar-button {
     display: none;
     cursor: pointer;
+    border: solid red;
+}
+.close-sidebar-button i {
+    border: solid pink;
+    margin-right: auto;
 }
 @media  (max-width: 910px) {
     .toggle-button {
@@ -150,10 +155,8 @@ body {
         margin-top: 5px;
     }
     .close-sidebar-button {
-        top: 1.75rem;
-        right: 2rem;
-        flex-direction: row-reverse;
         padding: 16px;
+        /* margin-right: auto; */
 }
     .toggle-button, .close-sidebar-button {
         display: block;
@@ -162,9 +165,6 @@ body {
         display: block;
     }
 }
-/* nav a {
-    height: 100%;
-} */
 .icons {
     /* border: solid red; */
     text-decoration: none;
